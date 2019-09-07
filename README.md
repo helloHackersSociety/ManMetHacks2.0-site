@@ -23,7 +23,7 @@ npm run build //To build the project to deploy on servers
 No looking for contributions other than suggestions  for best practice. Please open an issue to explain your contribution. 
 
 ## More on Tom Misson
-Links 
-[Website](https://thomas.misson.info)
-[GitHub](https://github.com/tomMisson)
+Links:
+[Website](https://thomas.misson.info), 
+[GitHub](https://github.com/tomMisson), 
 [Twitter](https://twitter.com/thomas_misson)
