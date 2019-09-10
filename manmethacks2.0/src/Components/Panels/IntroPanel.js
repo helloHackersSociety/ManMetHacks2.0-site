@@ -12,7 +12,7 @@ export default class IntroPanel extends Component {
         function updateTime() {
             var now = new Date().getTime();
             var distance = now - now;
-            var distance = countDownDate - now;
+            distance = countDownDate - now;
 
             var days = Math.floor(distance / (1000 * 60 * 60 * 24));
             var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -36,7 +36,7 @@ export default class IntroPanel extends Component {
 
     render(){
         return (
-            <section>
+            <section className="jumbotron">
                 <h1>ManMetHacks 2.0</h1>
                 <p>ManMetHacks 2.0 is a Manchester based hackathon run out of Manchester Metropolitan university by the HelloHackers society.</p>
                 
