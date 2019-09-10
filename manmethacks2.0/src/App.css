@@ -1,8 +1,96 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Raleway);
 @import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great|Josefin+Slab|Antic+Slab);
 
+*{
+    padding: 0;
+    margin:0;
+}
+
+:root {
+    --accent-color: #0094d8;
+    --accent-alt-color:#047fb8;
+}
+
+.countdown{
+    padding-top: 30px;
+}
+
+h1{
+    padding-bottom: 5vh;
+    padding-left: -2vw;
+    font-size: 5rem;
+}
+
+strong{
+    color: var(--accent-color);
+}
+
+svg{
+    width:64px;
+    height:64px;
+    fill: var(--accent-color);
+}
+svg:hover{
+    fill: var(--accent-alt-color);
+}
+
 p{
     font-family: 'Raleway',sans-serif;
     font-size: 1.8rem;
     font-weight: 800;
+}
+
+span{
+    font-family: 'Raleway',sans-serif;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+section{
+    padding: 25vh 20vw;
+}
+
+section p{
+    display: inline;
+}
+
+a{
+    color: var(--accent-color);
+}
+
+a:hover,a:active{
+    color: var(--accent-alt-color);
+}
+
+footer{
+    text-align: center;
+    padding:30px;
+    font-family: 'Raleway',sans-serif;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer li{
+    display: inline;
+}
+
+footer a{
+    padding: 2vw;
+    padding-top: 2vh;
+    font-size: 1rem;
+    text-decoration: none;
+    fill: var(--accent-color);
+}
+
+footer p{
+    font-size: 1rem;
+    padding-top: 4vh;
+}
+
+::-webkit-scrollbar{
+    display: none
 }
