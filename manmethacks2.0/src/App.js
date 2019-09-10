@@ -1,6 +1,7 @@
 import React from 'react';
 import TeamPanel from './Components/Panels/TeamPanel';
 import './App.css';
+import badge from './Media/mlh-2019-badge.png';
 import IntroPanel from './Components/Panels/IntroPanel';
 import SponsorsPanel from './Components/Panels/SponsorsPanel';
 import LastYearPanel from './Components/Panels/LastYearPanel';
@@ -10,6 +11,10 @@ class App extends React.Component{
   render() {
     return(
       <span>
+        <header>
+          <img className="badge" src={badge} alt="MLH 2019 season badge" height="202" width="112" />
+        </header>
+
         <main>
           <IntroPanel></IntroPanel>
         </main>
