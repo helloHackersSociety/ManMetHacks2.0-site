@@ -40,7 +40,7 @@ body{
 h1{
     padding-bottom: 5vh;
     padding-left: -2vw;
-    font-size: 5rem;
+    font-size: 10vh;
 }
 
 h2{
@@ -97,15 +97,16 @@ article{
     background-color: var(--article-color);
     border-radius: 25px;
     padding:10px;
-    margin: 3vh;
+    margin: 3vw;
     float: left;
-    width: 35vw;
+    width: 30vw;
     text-align: center;
 }
 
 article svg{
     width:32px;
     height:32px;
+    padding:5px;
 }
 
 section p{

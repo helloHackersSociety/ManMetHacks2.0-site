@@ -3,6 +3,10 @@ import iqrahpic from '../../Media/iqrah.jpg'
 import tompic from '../../Media/tom.jpg'
 import profile from '../../Media/profile.png'
 
+import TwitterLink from '../Links/TwitterLink';
+import GitHubLink from '../Links/GitHubLink';
+import WebsiteLink from '../Links/WebsiteLink';
+
 export default class TeamPanel extends Component {
 
     state = {
