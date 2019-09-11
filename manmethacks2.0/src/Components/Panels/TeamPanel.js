@@ -46,7 +46,7 @@ export default class TeamPanel extends Component {
     render() {
         return (
             <section>
-                <h2>Team</h2>
+                <h2>The Team</h2>
                 <div className="teamWrapper">
                 {
                     this.state.teamMembers.map((profile) => 

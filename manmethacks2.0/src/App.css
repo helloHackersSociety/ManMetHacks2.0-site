@@ -12,25 +12,44 @@
     --article-color:#eee;
     --alt-background: #eee;
     --background: #fff;
+    --alt-text-color:#444;
 }
 
 .countdown{
     padding-top: 30px;
+    margin-left: 10px;
 }
 
 .badge{
     position: absolute;
-    margin-left:88vw;
+    margin-left:80%;
+    margin-top: -50px;
 }
 
 .jumbotron{
-    padding: 0vh 20vw;
-    padding-top:35vh;
+    padding: 0vh 15vw;
+    padding-top:30vh;
     height:70vh;
 }
 
 .teamWrapper{
     margin: auto;
+}
+
+.sponsorWrapper{
+    text-align: center;
+    margin-top: 25px;
+    padding-bottom: 70px;
+}
+
+.faqWrapper{
+    padding: 10px 0px;
+    margin: auto;
+    padding-bottom:35vh;
+}
+
+.faqWrapper h3{
+    font-style: italic;
 }
 
 body{
@@ -39,7 +58,6 @@ body{
 
 h1{
     padding-bottom: 5vh;
-    margin-left: -1vw;
     font-size: 10vh;
 }
 
@@ -49,16 +67,19 @@ h2{
     margin-bottom: 20px;
     letter-spacing: 0.2vw;
     text-shadow: #222 2px;
+    padding: 0px 5px;
 }
 
 h3{
-    font-weight: bolder;
+    font-weight: 600;
     font-size: 2rem;
+    padding: 0px 10px;
 }
 
 h4{
     color: #222;
     font-size: 1.5rem;
+    padding-bottom: 15px;
 }
 
 strong{
@@ -76,8 +97,10 @@ svg:hover{
 
 p{
     font-family: 'Raleway',sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 800;
+    padding: 0px 10px;
+    color: var(--alt-text-color);
 }
 
 span{
@@ -89,6 +112,8 @@ span{
 section{
     padding: 0vh 10vw;
     padding-top:10vh;
+    margin: 1vh 0vw;
+    padding-bottom: 3vh
 }
 
 section:nth-child(even){
@@ -99,9 +124,9 @@ article{
     background-color: var(--article-color);
     border-radius: 25px;
     padding:10px;
-    margin: 1vh 2vw;
+    margin: 2vh 3.2vw;
     float: left;
-    width: 30vw;
+    width: 31vw;
     text-align: center;
 }
 
@@ -153,6 +178,13 @@ footer a{
 footer p{
     font-size: 1rem;
     padding-top: 4vh;
+}
+
+img{
+    padding-left:40px;
+    padding-top:30px;
+    margin:auto;
+    text-align: center;
 }
 
 ::-webkit-scrollbar{

@@ -5,6 +5,7 @@ import badge from './Media/mlh-2019-badge.png';
 import IntroPanel from './Components/Panels/IntroPanel';
 import SponsorsPanel from './Components/Panels/SponsorsPanel';
 import LastYearPanel from './Components/Panels/LastYearPanel';
+import FAQPanel from './Components/Panels/FAQPanel'
 
 class App extends React.Component{
   
@@ -18,8 +19,11 @@ class App extends React.Component{
         <main>
           <IntroPanel></IntroPanel>
           <LastYearPanel></LastYearPanel>
+          <FAQPanel></FAQPanel>
+          <SponsorsPanel></SponsorsPanel>
           <TeamPanel></TeamPanel>
-        </main>
+          
+       </main>
         
         <footer>
           <div className="header-icons">
