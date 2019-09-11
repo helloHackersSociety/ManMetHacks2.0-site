@@ -14,7 +14,7 @@ export default class WebsiteLink extends Component {
         }
         
         return(
-            <a></a>
+            <div></div>
         )
     }
 }

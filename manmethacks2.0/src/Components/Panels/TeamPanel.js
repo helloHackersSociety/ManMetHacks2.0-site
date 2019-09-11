@@ -1,7 +1,4 @@
 import React, { Component } from 'react'
-import iqrahpic from '../../Media/iqrah.jpg'
-import tompic from '../../Media/tom.jpg'
-import profile from '../../Media/profile.png'
 
 import TwitterLink from '../Links/TwitterLink';
 import GitHubLink from '../Links/GitHubLink';
@@ -17,14 +14,14 @@ export default class TeamPanel extends Component {
                 name:"George Drakos",
                 github:"https://github.com/GeorgeDrakos",
                 twitter: "https://twitter.com/_GeorgiosDrakos",
-                picture:profile
+                picture:"https://avatars2.githubusercontent.com/u/32499221?s=460&v=4"
             },
             {
                 id:1,
                 position: "Vice Chair",
                 name:"Iqrah Nadeem",
                 github:"https://github.com/iiqrah",
-                picture:iqrahpic,
+                picture:"https://avatars2.githubusercontent.com/u/21157720?s=460&v=4",
                 twitter:"https://twitter.com/i_iqrah",
             },
             {
@@ -32,7 +29,7 @@ export default class TeamPanel extends Component {
                 position: "Treasurer",
                 name:"Tom Misson",
                 github:"https://github.com/tomMisson",
-                picture:tompic,
+                picture:"https://avatars0.githubusercontent.com/u/9392830?s=460&v=4",
                 twitter:"https://twitter.com/thomas_misson",
                 website:"https://thomas.misson.info"
             },
@@ -41,7 +38,7 @@ export default class TeamPanel extends Component {
                 position: "Events organiser",
                 name:"Fahad Quraishi",
                 github:"https://github.com/FahadQ",
-                picture:profile,
+                picture:"https://avatars3.githubusercontent.com/u/30301004?s=460&v=4",
             },
         ]
     }

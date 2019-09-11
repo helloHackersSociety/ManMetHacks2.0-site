@@ -13,7 +13,7 @@ export default class TwitterLink extends Component {
         }
         
         return(
-            <a></a>
+            <div></div>
         )
     }
 }
