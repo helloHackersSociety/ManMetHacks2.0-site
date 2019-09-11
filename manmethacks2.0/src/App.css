@@ -9,6 +9,9 @@
 :root {
     --accent-color: #0094d8;
     --accent-alt-color:#047fb8;
+    --article-color:#eee;
+    --alt-background: #eee;
+    --background: #fff;
 }
 
 .countdown{
@@ -23,6 +26,15 @@
 .jumbotron{
     padding: 0vh 20vw;
     padding-top:35vh;
+    height:70vh;
+}
+
+.teamWrapper{
+    margin: auto;
+}
+
+body{
+    background-color: var(--background)
 }
 
 h1{
@@ -73,19 +85,21 @@ span{
 }
 
 section{
-    
     padding: 0vh 10vw;
-    padding-top:35vh;
-    
+    padding-top:10vh;
+}
+
+section:nth-child(even){
+    background-color: var(--alt-background)
 }
 
 article{
-    background-color: #eee;
+    background-color: var(--article-color);
     border-radius: 25px;
     padding:10px;
-    margin: 2vh;
+    margin: 3vh;
     float: left;
-    width: 40%;
+    width: 35vw;
     text-align: center;
 }
 
@@ -113,13 +127,14 @@ footer{
     font-size: 1rem;
     font-weight: 800;
     clear: left;
+    margin: auto;
 }
 
-footer ul{
+ul{
     list-style: none;
 }
 
-footer li{
+li{
     display: inline;
 }
 
@@ -138,4 +153,10 @@ footer p{
 
 ::-webkit-scrollbar{
     display: none
+}
+
+@media (max-width: 768px) {
+    article{
+        width:70vw;
+    }
 }
