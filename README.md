@@ -1,6 +1,6 @@
 # ManMetHacks 2.0
 
-This is the website for ManMetHacks 2.0 created by the Treasurer of the HelloHackers Society Tom Misson
+This is the one page presence for ManMetHacks 2.0 created by the Treasurer of the HelloHackers Society Tom Misson
 
 ## Installation
 
