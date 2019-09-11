@@ -117,6 +117,7 @@ section p{
 
 a{
     color: var(--accent-color);
+    text-decoration: none;
 }
 
 a:hover,a:active{
