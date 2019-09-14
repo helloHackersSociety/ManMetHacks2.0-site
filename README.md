@@ -9,6 +9,11 @@ Feel free to clone to your PC to try out the site and view the code to act as a 
 ```bash
 git clone https://github.com/tomMisson/ManMetHacks2.0-site.git
 ```
+Install dependancies: 
+
+```bash
+npx i react-scripts react-dom --save
+```
 
 ## Running and building locally 
 
