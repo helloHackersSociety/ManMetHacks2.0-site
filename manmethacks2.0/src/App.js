@@ -33,6 +33,7 @@ class App extends React.Component{
             </ul>
           </div>
           <p>&copy;HelloHackers {new Date().getFullYear()}<a aria-label="Email" target="_blank" rel="noopener noreferrer" href="mailto:hellohackerssoc@gmail.com">Contact us</a></p>
+          <p>Created by Tom Misson</p>
         </footer>
       </span>
     );
