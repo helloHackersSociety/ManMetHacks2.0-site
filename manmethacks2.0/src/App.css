@@ -9,7 +9,7 @@
 :root {
     --accent-color: #0094d8;
     --accent-alt-color:#047fb8;
-    --article-color:#eee;
+    --article-color:#fff;
     --alt-background: #eee;
     --background: #fff;
     --alt-text-color:#444;
@@ -23,7 +23,6 @@
 .badge{
     position: absolute;
     margin-left:80%;
-    margin-top: -50px;
 }
 
 .jumbotron{
@@ -42,6 +41,10 @@
     padding-bottom: 70px;
 }
 
+.sponsorWrapper img{
+    padding: 50px;
+}
+
 .faqWrapper{
     padding: 10px 0px;
     margin: auto;
@@ -52,13 +55,21 @@
     font-style: italic;
 }
 
+.loading {
+    text-align: center;
+    padding:0;
+    margin-left: 35%;
+    margin-right: 65%;
+}
+
 body{
     background-color: var(--background)
 }
 
 h1{
     padding-bottom: 5vh;
-    font-size: 12vh;
+    font-size: 11vh;
+    overflow-wrap: break-word;
 }
 
 h2{
@@ -67,7 +78,6 @@ h2{
     margin-bottom: 20px;
     letter-spacing: 0.2vw;
     text-shadow: #222 2px;
-    padding: 0px 5px;
 }
 
 h3{
@@ -86,6 +96,28 @@ strong{
     color: var(--accent-color);
 }
 
+button{
+    background-color: var(--accent-color);
+    border-radius: 20px;
+    border: 2px solid var(--accent-color);
+    padding:10px 30px;
+    margin-top:20px;
+    margin-bottom:50px;
+    color:#fff;
+    font-size: 1.8rem;
+    -webkit-transition-duration: 0.4s; 
+}
+
+button a{
+    color: #fff;
+}
+
+button:hover{
+    background-color: #fff;
+    border: 2px solid var(--accent-color);
+    color:#000;
+}
+
 svg{
     width:64px;
     height:64px;
@@ -99,7 +131,6 @@ p{
     font-family: 'Raleway',sans-serif;
     font-size: 1.5rem;
     font-weight: 800;
-    padding: 0px 10px;
     color: var(--alt-text-color);
 }
 
@@ -107,17 +138,19 @@ span{
     font-family: 'Raleway',sans-serif;
     font-size: 1.8rem;
     font-weight: 800;
+    padding: 10px;
 }
 
 section{
     padding: 0vh 10vw;
     padding-top:10vh;
     margin: 1vh 0vw;
-    overflow: hidden
+    overflow: hidden;
 }
 
 section:nth-child(even){
-    background-color: var(--alt-background)
+    background-color: var(--alt-background);
+    padding-bottom: 10vh;
 }
 
 article{
@@ -128,6 +161,14 @@ article{
     float: left;
     width: 31vw;
     text-align: center;
+}
+
+article h4 {
+    padding: 20px;
+}
+
+article:nth-child(even){
+    float: right;
 }
 
 article svg{
@@ -181,7 +222,7 @@ footer p{
 }
 
 img{
-    padding: 0 auto;
+    padding: 2vw auto;
     padding-top:30px;
     margin:auto;
     text-align: center;
