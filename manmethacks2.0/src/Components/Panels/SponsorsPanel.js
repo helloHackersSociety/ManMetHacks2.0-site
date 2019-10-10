@@ -1,6 +1,10 @@
 import React, { Component } from 'react'
+<<<<<<< HEAD
 import IoCLogo from '../../Media/IoC-LOGO.png';
 import FDMLogo from '../../Media/FDM-Logo.png';
+=======
+import load from '../../Media/loading.gif'
+>>>>>>> 0a1b041f17a4799c5b043df1b7fac97793bb9aea
 
 export default class Sponsors extends Component {
 
@@ -62,6 +66,7 @@ export default class Sponsors extends Component {
         return (
             <section>
                 <h2>This years sponsors</h2>
+<<<<<<< HEAD
                 <br/>
                 {
                     this.state.tiers.map((tier)=>
@@ -69,6 +74,9 @@ export default class Sponsors extends Component {
                     )
                 }
 
+=======
+                <img className="loading" alt ="loading circle" src={load}></img>
+>>>>>>> 0a1b041f17a4799c5b043df1b7fac97793bb9aea
             </section>
         )
     }

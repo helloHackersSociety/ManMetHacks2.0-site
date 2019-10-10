@@ -38,13 +38,17 @@ export default class LastYear extends Component {
                 <br/>
                 <h3>ManMetMacks 1.0</h3>
                 <br/>
-                <p>Last year at ManMetHacks...</p>
-                <br/><br/><br/>
+                <p>Last year was our first edition of our 24 hour student hackathon in Manchester Metropolitan University. We hosted around 100 student hackers from all over Europe. Together, they met to code, design and build innovative technological solutions.
+                </p>
                 <h3>Our sponsors</h3>
                 <div className="sponsorWrapper">
                 {
                     this.state.sponsorImages.map((image) =>
+<<<<<<< HEAD
                         <img src={image.image} height={image.height} width={image.width}/>
+=======
+                        <img key={image} src={image} height="90" width="200"/>
+>>>>>>> 0a1b041f17a4799c5b043df1b7fac97793bb9aea
                     )
                 }
                 </div>
