@@ -1,67 +1,66 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Raleway);
 @import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great|Josefin+Slab|Antic+Slab);
-
-*{
+* {
     padding: 0;
-    margin:0;
+    margin: 0;
 }
 
 :root {
     --accent-color: #0094d8;
-    --accent-alt-color:#047fb8;
-    --article-color:#eee;
+    --accent-alt-color: #047fb8;
+    --article-color: #eee;
     --alt-background: #eee;
     --background: #fff;
-    --alt-text-color:#444;
+    --alt-text-color: #444;
 }
 
-.countdown{
+.countdown {
     padding-top: 30px;
     margin-left: 10px;
 }
 
-.badge{
+.badge {
     position: absolute;
-    margin-left:80%;
+    margin-left: 80%;
     margin-top: -50px;
 }
 
-.jumbotron{
+.jumbotron {
     padding: 0vh 15vw;
-    padding-top:30vh;
-    height:70vh;
+    padding-top: 30vh;
+    height: 70vh;
 }
 
-.teamWrapper{
+.teamWrapper {
     margin: auto;
 }
 
-.sponsorWrapper{
+.sponsorWrapper {
     text-align: center;
     margin-top: 25px;
     padding-bottom: 70px;
 }
 
-.faqWrapper{
+.faqWrapper {
     padding: 10px 0px;
     margin: auto;
-    padding-bottom:35vh;
+    padding-bottom: 35vh;
 }
 
-.faqWrapper h3{
+.faqWrapper h3 {
     font-style: italic;
 }
 
-body{
+body {
     background-color: var(--background)
 }
 
-h1{
+h1 {
     padding-bottom: 5vh;
     font-size: 12vh;
 }
 
-h2{
+h2 {
     color: var(--accent-color);
     font-size: 5vh;
     margin-bottom: 20px;
@@ -70,104 +69,106 @@ h2{
     padding: 0px 5px;
 }
 
-h3{
+h3 {
     font-weight: 600;
     font-size: 2rem;
     padding: 0px 10px;
 }
 
-h4{
+h4 {
     color: #222;
     font-size: 1.5rem;
     padding-bottom: 15px;
 }
 
-strong{
+strong {
     color: var(--accent-color);
 }
 
-svg{
-    width:64px;
-    height:64px;
+svg {
+    width: 64px;
+    height: 64px;
     fill: var(--accent-color);
 }
-svg:hover{
+
+svg:hover {
     fill: var(--accent-alt-color);
 }
 
-p{
-    font-family: 'Raleway',sans-serif;
+p {
+    font-family: 'Raleway', sans-serif;
     font-size: 1.5rem;
     font-weight: 800;
     padding: 0px 10px;
     color: var(--alt-text-color);
 }
 
-span{
-    font-family: 'Raleway',sans-serif;
+span {
+    font-family: 'Raleway', sans-serif;
     font-size: 1.8rem;
     font-weight: 800;
 }
 
-section{
+section {
     padding: 0vh 10vw;
-    padding-top:10vh;
+    padding-top: 10vh;
     margin: 1vh 0vw;
     overflow: hidden
 }
 
-section:nth-child(even){
+section:nth-child(even) {
     background-color: var(--alt-background)
 }
 
-article{
+article {
     background-color: var(--article-color);
     border-radius: 25px;
-    padding:10px;
+    padding: 10px;
     margin: 2vh 3.2vw;
     float: left;
     width: 31vw;
     text-align: center;
 }
 
-article svg{
-    width:32px;
-    height:32px;
-    padding:5px;
+article svg {
+    width: 32px;
+    height: 32px;
+    padding: 5px;
 }
 
-section p{
+section p {
     display: inline;
 }
 
-a{
+a {
     color: var(--accent-color);
     text-decoration: none;
 }
 
-a:hover,a:active{
+a:hover,
+a:active {
     color: var(--accent-alt-color);
 }
 
-footer{
+footer {
     text-align: center;
-    padding:30px;
-    font-family: 'Raleway',sans-serif;
+    padding: 30px;
+    font-family: 'Raleway', sans-serif;
     font-size: 1rem;
     font-weight: 800;
     clear: left;
     margin: auto;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-li{
+li {
     display: inline;
 }
 
-footer a{
+footer a {
     padding: 2vw;
     padding-top: 2vh;
     font-size: 1rem;
@@ -175,41 +176,39 @@ footer a{
     fill: var(--accent-color);
 }
 
-footer p{
+footer p {
     font-size: 1rem;
     padding-top: 4vh;
 }
 
-img{
+img {
     padding: 0 auto;
-    padding-top:30px;
-    margin:auto;
+    padding-top: 30px;
+    margin: auto;
     text-align: center;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     display: none
 }
 
 @media (max-width: 768px) {
-    article{
-        width:70vw;
+    article {
+        width: 70vw;
     }
-
-    h1{
+    h1 {
         font-size: 10vw;
     }
-
-    h2{
-        font-size:8vw;
+    h2 {
+        font-size: 8vw;
     }
-
-    h3, .jumbotron span, .jumbotron p{
+    h3,
+    .jumbotron span,
+    .jumbotron p {
         font-size: 5vw;
-        padding:1px;
+        padding: 1px;
     }
-
-    .badge{
-        margin-left:70%;
+    .badge {
+        margin-left: 70%;
     }
 }
