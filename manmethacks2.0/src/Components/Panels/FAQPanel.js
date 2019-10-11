@@ -29,12 +29,6 @@ export default class FAQPanel extends Component {
                 title:"What do I bring?",
                 response:"Your ticket, student ID, toiletries and a laptop with its charger. That's about it!",
             },
-            {
-                id:5,
-                title:"Is there a CoC?",
-                response:"Yes, we follow the MLH Code of Conduct.",
-            },
-
         ]
     }
     

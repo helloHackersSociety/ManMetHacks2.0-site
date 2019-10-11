@@ -6,32 +6,18 @@
 }
 
 :root {
-    --accent-color: #0094d8;
-<<<<<<< HEAD
-    --accent-alt-color: #047fb8;
-    --article-color: #eee;
-=======
-    --accent-alt-color:#047fb8;
+    --accent-color: #6F1313;
+    --accent-alt-color:#BE201F;
     --article-color:#fff;
->>>>>>> 0a1b041f17a4799c5b043df1b7fac97793bb9aea
+    --alt-article-color:#eee;
     --alt-background: #eee;
     --background: #fff;
     --alt-text-color: #444;
 }
 
 .countdown {
-    padding-top: 30px;
-    margin-left: 10px;
-}
+    padding-top: 40px;
 
-.badge {
-    position: absolute;
-<<<<<<< HEAD
-    margin-left: 80%;
-    margin-top: -50px;
-=======
-    margin-left:80%;
->>>>>>> 0a1b041f17a4799c5b043df1b7fac97793bb9aea
 }
 
 .jumbotron {
@@ -50,15 +36,11 @@
     padding-bottom: 70px;
 }
 
-<<<<<<< HEAD
-.faqWrapper {
-=======
 .sponsorWrapper img{
     padding: 50px;
 }
 
 .faqWrapper{
->>>>>>> 0a1b041f17a4799c5b043df1b7fac97793bb9aea
     padding: 10px 0px;
     margin: auto;
     padding-bottom: 35vh;
@@ -68,18 +50,16 @@
     font-style: italic;
 }
 
-<<<<<<< HEAD
-body {
-=======
-.loading {
-    text-align: center;
-    padding:0;
-    margin-left: 35%;
-    margin-right: 65%;
+.tier{
+    width: 90%;
+    float: left;
+}
+
+.profile{
+    background-color: var(--alt-article-color) 
 }
 
 body{
->>>>>>> 0a1b041f17a4799c5b043df1b7fac97793bb9aea
     background-color: var(--background)
 }
 
@@ -100,7 +80,12 @@ h2 {
 h3 {
     font-weight: 600;
     font-size: 2rem;
-    padding: 0px 10px;
+    color: var(--accent-color);
+}
+
+.jumbotron h3{
+    color: var(--alt-text-color);
+    width: 110%;
 }
 
 h4 {
@@ -113,11 +98,6 @@ strong {
     color: var(--accent-color);
 }
 
-<<<<<<< HEAD
-svg {
-    width: 64px;
-    height: 64px;
-=======
 button{
     background-color: var(--accent-color);
     border-radius: 20px;
@@ -127,7 +107,8 @@ button{
     margin-bottom:50px;
     color:#fff;
     font-size: 1.8rem;
-    -webkit-transition-duration: 0.4s; 
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s; 
 }
 
 button a{
@@ -143,8 +124,9 @@ button:hover{
 svg{
     width:64px;
     height:64px;
->>>>>>> 0a1b041f17a4799c5b043df1b7fac97793bb9aea
     fill: var(--accent-color);
+    -webkit-transition-duration: 0.6s;
+    transition-duration: 0.6s; 
 }
 
 svg:hover {
@@ -160,26 +142,24 @@ p {
 
 span {
     font-family: 'Raleway', sans-serif;
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 800;
     padding: 10px;
+}
+
+div{
+    font-family: 'Raleway', sans-serif;
 }
 
 section {
     padding: 0vh 10vw;
     padding-top: 10vh;
-    margin: 1vh 0vw;
     overflow: hidden;
 }
 
-<<<<<<< HEAD
-section:nth-child(even) {
-    background-color: var(--alt-background)
-=======
 section:nth-child(even){
     background-color: var(--alt-background);
     padding-bottom: 10vh;
->>>>>>> 0a1b041f17a4799c5b043df1b7fac97793bb9aea
 }
 
 article {
@@ -192,12 +172,6 @@ article {
     text-align: center;
 }
 
-<<<<<<< HEAD
-article svg {
-    width: 32px;
-    height: 32px;
-    padding: 5px;
-=======
 article h4 {
     padding: 20px;
 }
@@ -210,7 +184,6 @@ article svg{
     width:32px;
     height:32px;
     padding:5px;
->>>>>>> 0a1b041f17a4799c5b043df1b7fac97793bb9aea
 }
 
 section p {
@@ -258,17 +231,10 @@ footer p {
     padding-top: 4vh;
 }
 
-<<<<<<< HEAD
-img {
-    padding: 0 auto;
-    padding-top: 30px;
-    margin: auto;
-=======
 img{
     padding: 2vw auto;
     padding-top:30px;
     margin:auto;
->>>>>>> 0a1b041f17a4799c5b043df1b7fac97793bb9aea
     text-align: center;
 }
 
@@ -294,5 +260,10 @@ img{
     }
     .badge {
         margin-left: 70%;
+    }
+
+    img{
+        transform: scale(0.7);
+        padding:10px;
     }
 }

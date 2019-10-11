@@ -46,7 +46,7 @@ export default class TeamPanel extends Component {
     render() {
         return (
             <section>
-                <h2>HelloHackers Society</h2>
+                <h2>helloHackers Society</h2>
                 <h4>The society was founded in September 2018. It strives to build the hacker community at the university. It has four committee members as of now. We run workshops, talks and are really excited to host our second hackathon.</h4>
 
                 <button type="button"><a target="_blank" href="https://www.theunionmmu.org/groups/hellohackers-society" alt="membership page for mmu students">Join us!</a></button>
@@ -55,7 +55,7 @@ export default class TeamPanel extends Component {
                 {
                     this.state.teamMembers.map((profile) => 
                     
-                        <article key={profile.id}>
+                        <article key={profile.id} className="profile">
                             <img src={profile.picture} alt={profile.name} height="200" width="200"></img>
                             <h3>{profile.name}</h3>
                             <h4>{profile.position}</h4>
