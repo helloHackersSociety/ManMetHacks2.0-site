@@ -46,6 +46,9 @@ export default class IntroPanel extends Component {
                     <span id="minutes"></span><p> <strong>minutes</strong> </p>
                     <span id="seconds"></span><p> <strong>seconds</strong></p>
                 </div>
+            
+                <br/>
+                <a href="https://thomasmisson.typeform.com/to/QVU3BE" alt="Interest link">Register your interest!</a>
             </section>
         )
     }
