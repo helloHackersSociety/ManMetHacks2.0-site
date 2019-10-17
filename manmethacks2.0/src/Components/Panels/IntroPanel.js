@@ -48,7 +48,7 @@ export default class IntroPanel extends Component {
                 </div>
             
                 <br/>
-                <a href="https://thomasmisson.typeform.com/to/QVU3BE" alt="Interest link">Register your interest!</a>
+                <a href="https://forms.gle/b6vqYhz9DsJLbkNQ6" alt="Interest link">Register your interest!</a>
             </section>
         )
     }
