@@ -48,20 +48,12 @@ export default class Sponsors extends Component {
                 sponsors:[
                     {
                         id:0,
-                        companyName: "Institue of code",
+                        companyName: "Institue of Coding",
                         image: IoCLogo,
                         width: 319,
                         height: 84,
                         url:"https://www2.mmu.ac.uk/institute-of-coding/",
-                    },
-                    {
-                        id:1,
-                        companyName: "Redbull",
-                        image: "https://cdn.worldvectorlogo.com/logos/redbull.svg",
-                        width: 200,
-                        height: 122,
-                        url:"https://www.redbull.com/gb-en/",
-                     }
+                    }
                 ],
             },
         ]
