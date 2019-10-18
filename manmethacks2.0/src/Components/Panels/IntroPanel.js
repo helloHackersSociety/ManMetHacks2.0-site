@@ -51,7 +51,7 @@ export default class IntroPanel extends Component {
                 <br/>
                 <br/>
                 <br/>
-                <strong><a id="interest" href="https://forms.gle/TeQZyQTwAwLdnmbaA" alt="Interest link" target="blank" rel="noopener noreferrer">Join us!</a></strong>
+                <button type="button"><a rel="noopener noreferrer" target="_blank" href="https://forms.gle/TeQZyQTwAwLdnmbaA" alt="Interest form button">Register interest now</a></button>            
             </section>
         )
     }
