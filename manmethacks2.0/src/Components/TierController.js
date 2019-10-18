@@ -17,11 +17,14 @@ export default class Sponsors extends Component {
                     <br/>
                     {
                         this.props.currentTier.sponsors.map((sponsor) =>
-                        <a alt="sponsor image" key={sponsor.id} href={sponsor.url}>
-                            <img  src={sponsor.image} width={sponsor.width} height={sponsor.height}/>
+                        <div>
+                        <a alt="sponsor image link" key={sponsor.id} href={sponsor.url}>
+                            <img alt="sponsor" src={sponsor.image} width={sponsor.width} height={sponsor.height}/>
                             <br/>
                             <p>{sponsor.companyName}</p>
                         </a>
+                        <br/>
+                        </div>
                     )
                     }
 

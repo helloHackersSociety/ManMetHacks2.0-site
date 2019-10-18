@@ -38,7 +38,7 @@ export default class IntroPanel extends Component {
         return (
             <section className="jumbotron">
                 <h1>ManMetHacks 2.0</h1>
-                <h3>ManMetHacks 2.0 is a <strong>Manchester</strong> based hackathon run out of <strong><a target="_blank" href="https://goo.gl/maps/uxZPJYdMb9T5Q9L77" alt="MMU business school location">Manchester Metropolitan University</a></strong> by the HelloHackers society. This years event will be held on the <strong><a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=M2ptdHJua29pcnUxZGV2bHJ1N2swcDMxN2MgdTdkZWllbzd0aHRkc21oOWV1MGpudG03anNAZw&amp;tmsrc=u7deieo7thtdsmh9eu0jntm7js%40group.calendar.google.com" alt="Calender event link">25/01/2020 @ 9am</a></strong>.</h3>
+                <h3>ManMetHacks 2.0 is a <strong>Manchester</strong> based hackathon run out of <strong><a rel="noopener noreferrer" target="_blank" href="https://goo.gl/maps/uxZPJYdMb9T5Q9L77" alt="MMU business school location">Manchester Metropolitan University</a></strong> by the HelloHackers society. This years event will be held on the <strong><a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=M2ptdHJua29pcnUxZGV2bHJ1N2swcDMxN2MgdTdkZWllbzd0aHRkc21oOWV1MGpudG03anNAZw&amp;tmsrc=u7deieo7thtdsmh9eu0jntm7js%40group.calendar.google.com" alt="Calender event link" rel="noopener noreferrer">25/01/2020 @ 9am</a></strong>.</h3>
                 
                 <div className="countdown">
                     <span id="days"></span><p> <strong>days</strong> </p>
@@ -48,7 +48,11 @@ export default class IntroPanel extends Component {
                 </div>
             
                 <br/>
-                <a href="https://forms.gle/b6vqYhz9DsJLbkNQ6" alt="Interest link">Register your interest!</a>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <strong><a id="interest" href="https://forms.gle/b6vqYhz9DsJLbkNQ6" alt="Interest link" target="blank" rel="noopener noreferrer">Register your interest!</a></strong>
             </section>
         )
     }

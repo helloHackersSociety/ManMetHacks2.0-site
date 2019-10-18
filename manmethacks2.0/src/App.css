@@ -55,6 +55,10 @@
     float: left;
 }
 
+.tier img{
+    text-align: center;
+}
+
 .profile{
     background-color: var(--alt-article-color) 
 }
@@ -86,6 +90,11 @@ h3 {
 .jumbotron h3{
     color: var(--alt-text-color);
     width: 110%;
+}
+
+.jumbotron #interest{
+    font-size: 2em;
+    text-align: center;
 }
 
 h4 {
@@ -263,7 +272,14 @@ img{
     }
 
     img{
-        transform: scale(0.7);
-        padding:10px;
+        transform: scale(0.5);
+        margin:0;
+        padding: 0;
+    }
+    .sponsorWrapper{
+        margin:0;
+        padding:0;
+        display: inline;
+        width: 70%;
     }
 }

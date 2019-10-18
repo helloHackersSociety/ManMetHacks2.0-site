@@ -49,7 +49,7 @@ export default class LastYear extends Component {
                 <div className="sponsorWrapper">
                 {
                     this.state.sponsorImages.map((image) =>
-                        <img key={image.id} src={image.image} height={image.height} width={image.width}/>
+                        <img alt="last years sponsor" key={image.id} src={image.image} className="sponsorImage" height={image.height} width={image.width}/>
                     )
                 }
                 </div>

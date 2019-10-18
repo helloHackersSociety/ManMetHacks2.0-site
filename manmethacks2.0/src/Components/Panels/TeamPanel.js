@@ -49,7 +49,7 @@ export default class TeamPanel extends Component {
                 <h2>helloHackers Society</h2>
                 <h4>The society was founded in September 2018. It strives to build the hacker community at the university. It has four committee members as of now. We run workshops, talks and are really excited to host our second hackathon.</h4>
 
-                <button type="button"><a target="_blank" href="https://www.theunionmmu.org/groups/hellohackers-society" alt="membership page for mmu students">Join us!</a></button>
+                <button type="button"><a rel="noopener noreferrer" target="_blank" href="https://www.theunionmmu.org/groups/hellohackers-society" alt="membership page for mmu students">Join us!</a></button>
                 <h3><strong>The Team</strong></h3>
                 <div className="teamWrapper">
                 {
