@@ -17,7 +17,7 @@ export default class Sponsors extends Component {
                     <br/>
                     {
                         this.props.currentTier.sponsors.map((sponsor) =>
-                        <div>
+                        <div className-="sponsorDiv">
                         <a alt="sponsor image link" key={sponsor.id} href={sponsor.url}>
                             <img alt="sponsor" src={sponsor.image} width={sponsor.width} height={sponsor.height}/>
                             <br/>

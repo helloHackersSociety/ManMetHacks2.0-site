@@ -24,6 +24,7 @@
     padding: 0vh 15vw;
     padding-top: 30vh;
     height: 70vh;
+    overflow: visible;
 }
 
 .teamWrapper {
@@ -252,11 +253,15 @@ img{
 }
 
 @media (max-width: 768px) {
+    .jumbotron{
+        padding-top: 20vh;
+        height: 80vh;
+    }
     article {
         width: 70vw;
     }
     h1 {
-        font-size: 10vw;
+        font-size: 4em;
     }
     h2 {
         font-size: 8vw;
@@ -267,19 +272,18 @@ img{
         font-size: 5vw;
         padding: 1px;
     }
-    .badge {
-        margin-left: 70%;
+
+    #mlh-trust-badge {
+        transform: scale(0.8) translateY(-20px) translateX(50px);
     }
 
-    img{
-        transform: scale(0.5);
-        margin:0;
-        padding: 0;
+    .sponsorImage{
+        transform: scale(0.5) translateX(-200px);
+        float: none;
     }
-    .sponsorWrapper{
-        margin:0;
-        padding:0;
-        display: inline;
-        width: 70%;
+
+    .tier{
+        width: 100%;
+        margin-left: auto;
     }
 }
