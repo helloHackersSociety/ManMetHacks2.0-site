@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import FDMLogo from '../../Media/FDM-Logo.png';
 import IoCLogo from '../../Media/IoC-LOGO.png';
 import TierController from '../TierController';
+import KoderlyLogo from '../../Media/Koderly-logo.png';
 
 export default class Sponsors extends Component {
 
@@ -18,7 +19,14 @@ export default class Sponsors extends Component {
                 tierID: 1,
                 name: "Gold",
                 sponsors:[
-                   
+                    {
+                        id:0,
+                        companyName: "Koder.ly",
+                        image: KoderlyLogo,
+                        width: 674,
+                        height: 168,
+                        url:"https://www.koder.ly/",
+                    }
                 ],
             },
             {
