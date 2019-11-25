@@ -3,6 +3,7 @@ import FDMLogo from '../../Media/FDM-Logo.png';
 import IoCLogo from '../../Media/IoC-LOGO.png';
 import TierController from '../TierController';
 import KoderlyLogo from '../../Media/Koderly-logo.png';
+import JetBrainsLogo from '../../Media/jetbrains-logo.png';
 
 export default class Sponsors extends Component {
 
@@ -61,6 +62,15 @@ export default class Sponsors extends Component {
                         width: 319,
                         height: 84,
                         url:"https://www2.mmu.ac.uk/institute-of-coding/",
+                    }, 
+                    
+                    {
+                        id:1,
+                        companyName: "JetBrains",
+                        image: JetBrainsLogo,
+                        width: 319,
+                        height: 84,
+                        url:"https://www.jetbrains.com/student/",
                     }
                 ],
             },
