@@ -4,6 +4,7 @@ import IoCLogo from '../../Media/IoC-LOGO.png';
 import TierController from '../TierController';
 import KoderlyLogo from '../../Media/Koderly-logo.png';
 import JetBrainsLogo from '../../Media/jetbrains-logo.png';
+import LevitationEventsLogo from '../../Media/levitation-events.png';
 
 export default class Sponsors extends Component {
 
@@ -57,7 +58,7 @@ export default class Sponsors extends Component {
                 sponsors:[
                     {
                         id:0,
-                        companyName: "Institue of Coding",
+                        companyName: "Institute of Coding",
                         image: IoCLogo,
                         width: 319,
                         height: 84,
@@ -71,6 +72,15 @@ export default class Sponsors extends Component {
                         width: 319,
                         height: 84,
                         url:"https://www.jetbrains.com/student/",
+                    },
+                    {
+                        id:2,
+                        companyName: "Levitation Events",
+                        image: LevitationEventsLogo,
+                        width: 319,
+                        height: 84,
+                        url:"https://levitationevents.co.uk/",
+
                     }
                 ],
             },
