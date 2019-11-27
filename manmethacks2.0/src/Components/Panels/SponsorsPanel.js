@@ -54,7 +54,7 @@ export default class Sponsors extends Component {
             },
             {
                 tierID: 4,
-                name: "Community partners",
+                name: "Community Partners",
                 sponsors:[
                     {
                         id:0,
@@ -69,8 +69,8 @@ export default class Sponsors extends Component {
                         id:1,
                         companyName: "JetBrains",
                         image: JetBrainsLogo,
-                        width: 319,
-                        height: 84,
+                        width: 300,
+                        height: 319,
                         url:"https://www.jetbrains.com/student/",
                     },
                     {
@@ -78,7 +78,7 @@ export default class Sponsors extends Component {
                         companyName: "Levitation Events",
                         image: LevitationEventsLogo,
                         width: 319,
-                        height: 84,
+                        height: 62,
                         url:"https://levitationevents.co.uk/",
 
                     }
