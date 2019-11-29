@@ -25,8 +25,7 @@ npm run start //To start the project locally
 npm run build //To build the project to deploy on servers
 ```
 ## Contributing
-No looking for contributions other than suggestions  for best practice. Please open an issue to explain your contribution. 
-
+If you feel like you can add value to the site, we are more than intrested. Please submit a PR and it will be reviewed in time.
 ## More on Tom Misson
 Links:
 [Website](https://thomas.misson.info), 
