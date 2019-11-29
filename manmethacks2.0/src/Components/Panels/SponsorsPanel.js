@@ -49,8 +49,8 @@ export default class Sponsors extends Component {
                        id:1,
                        companyName: "GitHub",
                        image: GitHubLogo,
-                       width: 319,
-                       height: 84,
+                       width: 200,
+                       height: 54,
                        url:"https://education.github.com/",
                     }
                 ],
