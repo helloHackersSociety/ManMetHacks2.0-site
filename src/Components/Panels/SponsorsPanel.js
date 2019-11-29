@@ -79,8 +79,8 @@ export default class Sponsors extends Component {
                         id:1,
                         companyName: "JetBrains",
                         image: JetBrainsLogo,
-                        width: 300,
-                        height: 319,
+                        width: 150,
+                        height: 159,
                         url:"https://www.jetbrains.com/student/",
                     },
                     {

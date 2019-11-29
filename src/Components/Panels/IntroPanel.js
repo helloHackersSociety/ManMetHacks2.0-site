@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import $ from 'jquery'
 
 export default class IntroPanel extends Component {
-
     componentDidMount(){
         var countDownDate = new Date("January 25, 2020 09:00:00").getTime();
 
@@ -46,30 +45,9 @@ export default class IntroPanel extends Component {
                     <span id="minutes"></span><p> <strong>minutes</strong> </p>
                     <span id="seconds"></span><p> <strong>seconds</strong></p>
                 </div>
-            
-            
-                <noscript><a href="https://www.eventbrite.co.uk/e/manmethacks-20-tickets-83778637159" rel="noopener noreferrer" target="_blank"></noscript>
-                <button id="eventbrite-widget-modal-trigger-83778637159" type="button">Get Your ticket now!</button>
-                <noscript></a>Buy Tickets on Eventbrite</noscript>
+                
+                
 
-                <script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js"></script>
-                <script src="../confetti.js"></script>
-                <script type="text/javascript">
-                    var celebrate = function() {
-                        startConfetti();
-                        wait(2000);
-                        stopConfetti();
-                    };
-
-                    window.EBWidgets.createWidget({
-                        widgetType: 'checkout',
-                        eventId: '83778637159',
-                        modal: true,
-                        modalTriggerElementId: 'eventbrite-widget-modal-trigger-83778637159',
-                        onOrderComplete: celebrate
-                    });
-                </script>
-                <button type="button"><a rel="noopener noreferrer" target="_blank" href="https://forms.gle/TeQZyQTwAwLdnmbaA" alt="Interest form button">Register interest now</a></button>            
             </section>
         )
     }

@@ -21,14 +21,19 @@ export default class FAQPanel extends Component {
             },
             {
                 id:3,
+                title:"Do you have a CoC?",
+                response:"Yes, as we are an MLH event we follow  MLH CoC https://static.mlh.io/docs/mlh-code-of-conduct.pdf'",
+            },
+            {
+                id:4,
                 title:"What is the cost?",
                 response:"Nothing. Attending a hackathon is absolutely free.",
             },
             {
-                id:4,
+                id:5,
                 title:"What do I bring?",
                 response:"Your ticket, student ID, toiletries and a laptop with its charger. That's about it!",
-            },
+            }
         ]
     }
     
