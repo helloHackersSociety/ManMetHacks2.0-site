@@ -5,6 +5,7 @@ import TierController from '../TierController';
 import KoderlyLogo from '../../Media/Koderly-logo.png';
 import JetBrainsLogo from '../../Media/jetbrains-logo.png';
 import LevitationEventsLogo from '../../Media/levitation-events.png';
+import GitHubLogo from '../../Media/github-logo.png';
 
 export default class Sponsors extends Component {
 
@@ -42,6 +43,15 @@ export default class Sponsors extends Component {
                        width: 213,
                        height: 128,
                        url:"https://www.fdmgroup.com/careers/graduates",
+                    },
+                    
+                    {
+                       id:1,
+                       companyName: "GitHub",
+                       image: GitHubLogo,
+                       width: 319,
+                       height: 84,
+                       url:"https://education.github.com/",
                     }
                 ],
             },
