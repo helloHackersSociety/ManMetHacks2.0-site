@@ -22,4 +22,3 @@ jobs:
         npm run build 
       env:
         CI: true
-        args: "install --prefix ./manmethacks2.0/" 
