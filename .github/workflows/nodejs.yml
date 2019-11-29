@@ -6,7 +6,7 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-
+  
     strategy:
       matrix:
         node-version: [8.x]
@@ -22,3 +22,4 @@ jobs:
         npm run build 
       env:
         CI: true
+        args: "install --prefix ./manmethacks2.0/" 
