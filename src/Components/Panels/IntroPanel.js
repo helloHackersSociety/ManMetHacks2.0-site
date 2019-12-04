@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import $ from 'jquery'
+import EventbriteButton from 'react-eventbrite-popup-checkout';
 
 export default class IntroPanel extends Component {
     componentDidMount(){
@@ -33,6 +34,10 @@ export default class IntroPanel extends Component {
         }
     }
 
+    confetii(){
+        console.log("Thank you for getting a ticket!");
+    }
+
     render(){
         return (
             <section className="jumbotron">
@@ -46,9 +51,12 @@ export default class IntroPanel extends Component {
                     <span id="seconds"></span><p> <strong>seconds</strong></p>
                 </div>
                 
-                
-
+                <EventbriteButton ebEventId='83778637159'>Get Tickets NOW!</EventbriteButton>
+                <script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js"></script>
             </section>
         )
     }
 }
+
+
+

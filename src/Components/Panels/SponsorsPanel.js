@@ -27,7 +27,7 @@ export default class Sponsors extends Component {
                         companyName: "Koder.ly",
                         image: KoderlyLogo,
                         width: 674,
-                        height: 168,
+                        height: 198,
                         url:"https://www.koder.ly/",
                     }
                 ],
@@ -40,8 +40,8 @@ export default class Sponsors extends Component {
                        id:0,
                        companyName: "FDM group",
                        image: FDMLogo,
-                       width: 213,
-                       height: 128,
+                       width: 319,
+                       height: 192,
                        url:"https://www.fdmgroup.com/careers/graduates",
                     },
                     
@@ -49,8 +49,8 @@ export default class Sponsors extends Component {
                        id:1,
                        companyName: "GitHub",
                        image: GitHubLogo,
-                       width: 200,
-                       height: 54,
+                       width: 250,
+                       height: 69,
                        url:"https://education.github.com/",
                     }
                 ],
