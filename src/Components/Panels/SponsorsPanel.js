@@ -6,6 +6,7 @@ import KoderlyLogo from '../../Media/Koderly-logo.png';
 import JetBrainsLogo from '../../Media/jetbrains-logo.png';
 import LevitationEventsLogo from '../../Media/levitation-events.png';
 import GitHubLogo from '../../Media/github-logo.png';
+import StickerMuleLogo from '../../Media/2020Stickermuel.png';
 
 export default class Sponsors extends Component {
 
@@ -59,6 +60,7 @@ export default class Sponsors extends Component {
                 tierID: 3,
                 name: "Bronze",
                 sponsors:[
+                    //Twilio
                    
                 ],
             },
@@ -91,7 +93,16 @@ export default class Sponsors extends Component {
                         height: 62,
                         url:"https://levitationevents.co.uk/",
 
-                    }
+                    },
+                    {
+                        id:3,
+                        companyName: "Sticker Mule",
+                        image: StickerMuleLogo,
+                        width: 250,
+                        height: 250,
+                        url:"http://hackp.ac/mlh-stickermule-hackathons",
+
+                    },
                 ],
             },
         ]
