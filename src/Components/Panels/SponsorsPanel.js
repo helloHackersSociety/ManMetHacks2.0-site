@@ -7,6 +7,7 @@ import JetBrainsLogo from '../../Media/jetbrains-logo.png';
 import LevitationEventsLogo from '../../Media/levitation-events.png';
 import GitHubLogo from '../../Media/github-logo.png';
 import StickerMuleLogo from '../../Media/2020Stickermuel.png';
+import TwilioLogo from '../../Media/twilio-logo.png';
 
 export default class Sponsors extends Component {
 
@@ -60,7 +61,14 @@ export default class Sponsors extends Component {
                 tierID: 3,
                 name: "Bronze",
                 sponsors:[
-                    //Twilio
+                    {
+                        id:0,
+                        companyName: "Twilio",
+                        image: TwilioLogo,
+                        width: 325,
+                        height: 150,
+                        url:"https://www.twilio.com/company",
+                    },
                    
                 ],
             },
