@@ -9,7 +9,7 @@
     --accent-color: #6F1313;
     --accent-alt-color:#BE201F;
     --article-color:#fff;
-    --alt-article-color:#eee;
+    --alt-article-color:#fff;
     --alt-background: #eee;
     --background: #fff;
     --alt-text-color: #444;
@@ -29,6 +29,22 @@
 
 .teamWrapper {
     margin: auto;
+}
+
+.schedule{
+    display: inline;
+    padding: 10px;
+}
+
+.event{
+    border: 1px solid #000;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+    width: 25%;
+    min-height:100%;
 }
 
 .sponsorWrapper {

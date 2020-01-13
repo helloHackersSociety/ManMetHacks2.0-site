@@ -5,6 +5,7 @@ import IntroPanel from './Components/Panels/IntroPanel';
 import SponsorsPanel from './Components/Panels/SponsorsPanel';
 import LastYearPanel from './Components/Panels/LastYearPanel';
 import FAQPanel from './Components/Panels/FAQPanel';
+import SchedulePannel from './Components/Panels/SchedulePanel';
 
 class App extends React.Component{
   
@@ -14,8 +15,9 @@ class App extends React.Component{
         <main>
           <IntroPanel></IntroPanel>
           <SponsorsPanel></SponsorsPanel>
-          <LastYearPanel></LastYearPanel>
+          <SchedulePannel></SchedulePannel>
           <FAQPanel></FAQPanel>
+          <LastYearPanel></LastYearPanel>
           <TeamPanel></TeamPanel>
        </main>
         
