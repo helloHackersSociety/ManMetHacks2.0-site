@@ -7,9 +7,9 @@
 
 :root {
     --accent-color: #6F1313;
-    --accent-alt-color:#BE201F;
-    --article-color:#fff;
-    --alt-article-color:#fff;
+    --accent-alt-color: #BE201F;
+    --article-color: #fff;
+    --alt-article-color: #fff;
     --alt-background: #eee;
     --background: #fff;
     --alt-text-color: #444;
@@ -17,7 +17,6 @@
 
 .countdown {
     padding-top: 40px;
-
 }
 
 .jumbotron {
@@ -31,20 +30,20 @@
     margin: auto;
 }
 
-.schedule{
+.schedule {
     display: inline;
     padding: 10px;
 }
 
-.event{
+.event {
     border: 1px solid #000;
     margin: 10px;
     display: inline-block;
     text-align: center;
     padding: 5px;
     border-radius: 20px;
-    width: 25%;
-    min-height:100%;
+    width: 50%;
+    min-height: 100%;
 }
 
 .sponsorWrapper {
@@ -53,11 +52,11 @@
     padding-bottom: 70px;
 }
 
-.sponsorWrapper img{
+.sponsorWrapper img {
     padding: 50px;
 }
 
-.faqWrapper{
+.faqWrapper {
     padding: 10px 0px;
     margin: auto;
     padding-bottom: 35vh;
@@ -67,25 +66,25 @@
     font-style: italic;
 }
 
-.tier{
+.tier {
     width: 90%;
     float: left;
 }
 
-.tier img{
+.tier img {
     text-align: center;
 }
 
-.profile{
-    background-color: var(--alt-article-color) 
+.profile {
+    background-color: var(--alt-article-color)
 }
 
-.sponsorDiv{
+.sponsorDiv {
     display: inline-block;
     padding: 20px;
 }
 
-body{
+body {
     background-color: var(--background)
 }
 
@@ -109,12 +108,12 @@ h3 {
     color: var(--accent-color);
 }
 
-.jumbotron h3{
+.jumbotron h3 {
     color: var(--alt-text-color);
     width: 110%;
 }
 
-.jumbotron #interest{
+.jumbotron #interest {
     font-size: 2em;
     text-align: center;
 }
@@ -129,35 +128,35 @@ strong {
     color: var(--accent-color);
 }
 
-button{
+button {
     background-color: var(--accent-color);
     border-radius: 20px;
     border: 2px solid var(--accent-color);
-    padding:10px 30px;
-    margin-top:20px;
-    margin-bottom:50px;
-    color:#fff;
+    padding: 10px 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: #fff;
     font-size: 1.8rem;
     -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s; 
+    transition-duration: 0.4s;
 }
 
-button a{
+button a {
     color: #fff;
 }
 
-button:hover{
+button:hover {
     background-color: #fff;
     border: 2px solid var(--accent-color);
-    color:#000;
+    color: #000;
 }
 
-svg{
-    width:64px;
-    height:64px;
+svg {
+    width: 64px;
+    height: 64px;
     fill: var(--accent-color);
     -webkit-transition-duration: 0.6s;
-    transition-duration: 0.6s; 
+    transition-duration: 0.6s;
 }
 
 svg:hover {
@@ -178,7 +177,7 @@ span {
     padding: 10px;
 }
 
-div{
+div {
     font-family: 'Raleway', sans-serif;
 }
 
@@ -188,7 +187,7 @@ section {
     overflow: hidden;
 }
 
-section:nth-child(even){
+section:nth-child(even) {
     background-color: var(--alt-background);
     padding-bottom: 10vh;
 }
@@ -201,7 +200,7 @@ article {
     float: left;
     width: 31vw;
     height: 100%;
-    text-align: center; 
+    text-align: center;
     display: inline-block;
     overflow: auto;
     overflow-wrap: break-word;
@@ -211,14 +210,14 @@ article h4 {
     padding: 20px;
 }
 
-article:nth-child(even){
+article:nth-child(even) {
     float: right;
 }
 
-article svg{
-    width:32px;
-    height:32px;
-    padding:5px;
+article svg {
+    width: 32px;
+    height: 32px;
+    padding: 5px;
 }
 
 section p {
@@ -266,10 +265,10 @@ footer p {
     padding-top: 4vh;
 }
 
-img{
+img {
     padding: 2vw auto;
-    padding-top:30px;
-    margin:auto;
+    padding-top: 30px;
+    margin: auto;
     text-align: center;
 }
 
@@ -278,7 +277,7 @@ img{
 }
 
 @media (max-width: 768px) {
-    .jumbotron{
+    .jumbotron {
         padding-top: 20vh;
         height: 80vh;
     }
@@ -300,35 +299,29 @@ img{
         font-size: 1em;
         padding: 1px;
     }
-
     #mlh-trust-badge {
         transform: scale(0.7) translateY(-40px) translateX(70px);
     }
-
-    .sponsorImage{
+    .sponsorImage {
         transform: scale(0.5) translateX(-200px);
         float: none;
     }
-
-    .sponsorDiv a img{
+    .sponsorDiv a img {
         transform: scale(0.7);
-        max-width:100%;
-        max-height:100%;
+        max-width: 100%;
+        max-height: 100%;
     }
-
-    .sponsorDiv{
+    .sponsorDiv {
         float: none;
         margin: 0;
         padding: 5px;
         overflow: hidden;
     }
-
-    .tier{
+    .tier {
         width: 100%;
         margin-left: auto;
     }
-
-    button{
+    button {
         font-size: 1.2em;
         padding: 5px 40px;
     }
