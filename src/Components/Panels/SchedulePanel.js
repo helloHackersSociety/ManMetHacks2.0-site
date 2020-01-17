@@ -106,6 +106,10 @@ export default class SchedulePanel extends Component {
                             )
                         
                         }
+
+                        return(
+                            <div/>
+                        )
                     })
                 }
                 <br/>
@@ -175,6 +179,10 @@ export default class SchedulePanel extends Component {
                             )
                             
                         }
+
+                        return(
+                            <div/>
+                        )
                     })
                 }
                 </ul>
