@@ -115,7 +115,7 @@ export default class SchedulePanel extends Component {
                 <br/>
                 <br/>
                 <br/>
-                <h3>Saturday</h3>
+                <h3>Sunday</h3>
                 {
                     this.state.schedule.map((event) =>
                     {
