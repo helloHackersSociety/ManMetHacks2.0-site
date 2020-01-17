@@ -4,25 +4,25 @@ export default class SchedulePanel extends Component {
 
     state = {
         schedule:[
-            {id:0, name:"Doors open", startTime: "9am", day: "Saturday", type: "door"},
-            {id:1, name:"Opening ceremony", startTime: "11am", day: "Saturday", type: "presentation"},
-            {id:2, name:"Team building", startTime: "11:45am", day: "Saturday", type: "presentation"},
-            {id:3, name:"Hacking starts", startTime: "12pm", day: "Saturday", type: "computer"},
+            {id:0, name:"Doors Open", startTime: "9am", day: "Saturday", type: "door"},
+            {id:1, name:"Opening Ceremony", startTime: "11am", day: "Saturday", type: "presentation"},
+            {id:2, name:"Team Building", startTime: "11:45am", day: "Saturday", type: "presentation"},
+            {id:3, name:"Hacking Starts", startTime: "12pm", day: "Saturday", type: "computer"},
             {id:4, name:"Lunch", startTime: "1pm", day: "Saturday", type:"meal"},
-            {id:5, name:"Koderly workshop: Coding problems - developing solutions", startTime: "2pm", day: "Saturday", type: "presentation"},
+            {id:5, name:"Koderly Workshop: Coding Problems - Developing Solutions", startTime: "2pm", day: "Saturday", type: "presentation"},
             {id:6, name:"Workshop: GitHub", startTime: "4pm", day: "Saturday", type: "presentation"},
             {id:7, name:"Workshop: Introduction to Android development", startTime: "5pm", day: "Saturday", type: "presentation"},
-            {id:8, name:"Evening meal", startTime: "6:30pm", day: "Saturday", type:"meal"},
+            {id:8, name:"Evening Meal", startTime: "6:30pm", day: "Saturday", type:"meal"},
             {id:9, name:"MLH Blackrock Cybersecurity Challenge", startTime: "8pm", day: "Saturday", type: "game"},
             {id:10, name:"MLH !Light", startTime: "9pm", day: "Saturday", type: "game"},
             {id:11, name:"Werewolf", startTime: "10pm", day: "Saturday", type: "game"},
 
-            {id:12, name:"Midnight pizza!", startTime: "12am", day: "Sunday", type:"meal"},
+            {id:12, name:"Midnight Pizza!", startTime: "12am", day: "Sunday", type:"meal"},
             {id:13, name:"Breakfast", startTime: "7:30am", day: "Sunday", type:"meal"},
-            {id:14, name:"Hacking ends", startTime: "12pm", day: "Sunday", type: "computer"},
-            {id:15, name:"Demo starts", startTime: "1pm", day: "Sunday", type: "presentation"},
-            {id:16, name:"Closing ceremony starts", startTime: "3:30pm", day: "Sunday", type: "presentation"},
-            {id:17, name:"Closing ceremony ends", startTime: "5pm", day: "Sunday", type: "door"}
+            {id:14, name:"Hacking Ends", startTime: "12pm", day: "Sunday", type: "computer"},
+            {id:15, name:"Demo Starts", startTime: "1pm", day: "Sunday", type: "presentation"},
+            {id:16, name:"Closing Ceremony", startTime: "3:30pm", day: "Sunday", type: "presentation"},
+            {id:17, name:"Event Ends", startTime: "5pm", day: "Sunday", type: "door"}
         ]
     }
 
