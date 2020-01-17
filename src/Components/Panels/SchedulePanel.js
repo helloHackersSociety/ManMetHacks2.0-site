@@ -96,15 +96,15 @@ export default class SchedulePanel extends Component {
                                     </li>
                                 )
                             }
-                            else{
-                                return(
-                                    <li key={event.id} className="event">
-                                        <div id="event-container"> 
-                                        <p>NOT found!!</p>
-                                        </div>
-                                    </li>
-                                )
-                            }
+                            
+                            return(
+                                <li key={event.id} className="event">
+                                    <div id="event-container"> 
+                                    <p>NOT found!!</p>
+                                    </div>
+                                </li>
+                            )
+                        
                         }
                     })
                 }
@@ -167,13 +167,13 @@ export default class SchedulePanel extends Component {
                                     </li>
                                 )
                             }
-                            else{
-                                return(
-                                    <li key={event.id} className="event">
-                                        <p>NOT found!!</p>
-                                    </li>
-                                )
-                            }
+                            
+                            return(
+                                <li key={event.id} className="event">
+                                    <p>NOT found!!</p>
+                                </li>
+                            )
+                            
                         }
                     })
                 }
