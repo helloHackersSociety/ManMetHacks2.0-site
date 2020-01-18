@@ -12,7 +12,7 @@ git clone https://github.com/tomMisson/ManMetHacks2.0-site.git
 Install dependancies: 
 
 ```bash
-npx i react-scripts react-dom --save
+npm i react-scripts react-dom --save
 ```
 
 ## Running and building locally 
