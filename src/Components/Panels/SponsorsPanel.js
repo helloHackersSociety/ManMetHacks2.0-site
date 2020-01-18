@@ -28,8 +28,6 @@ export default class Sponsors extends Component {
                         id:0,
                         companyName: "Koder.ly",
                         image: KoderlyLogo,
-                        width: 674,
-                        height: 198,
                         url:"https://www.koder.ly/",
                     }
                 ],
@@ -42,8 +40,6 @@ export default class Sponsors extends Component {
                        id:0,
                        companyName: "FDM group",
                        image: FDMLogo,
-                       width: 319,
-                       height: 192,
                        url:"https://www.fdmgroup.com/careers/graduates",
                     },
                     
@@ -51,8 +47,6 @@ export default class Sponsors extends Component {
                        id:1,
                        companyName: "GitHub",
                        image: GitHubLogo,
-                       width: 250,
-                       height: 69,
                        url:"https://education.github.com/",
                     }
                 ],
@@ -65,8 +59,6 @@ export default class Sponsors extends Component {
                         id:0,
                         companyName: "Twilio",
                         image: TwilioLogo,
-                        width: 325,
-                        height: 150,
                         url:"https://www.twilio.com/company",
                     },
                    
@@ -80,8 +72,6 @@ export default class Sponsors extends Component {
                         id:0,
                         companyName: "Institute of Coding",
                         image: IoCLogo,
-                        width: 319,
-                        height: 84,
                         url:"https://www2.mmu.ac.uk/institute-of-coding/",
                     }, 
                     
@@ -89,16 +79,12 @@ export default class Sponsors extends Component {
                         id:1,
                         companyName: "JetBrains",
                         image: JetBrainsLogo,
-                        width: 150,
-                        height: 159,
                         url:"https://www.jetbrains.com/student/",
                     },
                     {
                         id:2,
                         companyName: "Levitation Events",
                         image: LevitationEventsLogo,
-                        width: 319,
-                        height: 62,
                         url:"https://levitationevents.co.uk/",
 
                     },
@@ -106,8 +92,6 @@ export default class Sponsors extends Component {
                         id:3,
                         companyName: "Sticker Mule",
                         image: StickerMuleLogo,
-                        width: 250,
-                        height: 250,
                         url:"http://hackp.ac/mlh-stickermule-hackathons",
 
                     },
