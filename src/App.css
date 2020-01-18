@@ -40,8 +40,9 @@
     margin: 10px;
     display: inline-block;
     text-align: center;
-    padding: 10px;
+    padding: 20px 15px 20px 15px;
     border-radius: 20px;
+    object-fit: contain;
     width: 40%;
     height: 100%;
 }
@@ -58,7 +59,6 @@
 }
 
 .sponsorWrapper img {
-    padding: 50px;
 }
 
 .faqWrapper {
@@ -95,8 +95,8 @@ body {
 
 h1 {
     padding-bottom: 5vh;
-    font-size: 11vh;
-    overflow-wrap: break-word;
+    font-size: 11vw;
+    
 }
 
 h2 {
@@ -200,7 +200,7 @@ section:nth-child(even) {
 article {
     background-color: var(--article-color);
     border-radius: 25px;
-    padding: 10px;
+    padding: 10px 10px 10px 10px;
     margin: 2vh 3.2vw;
     float: left;
     width: 31vw;
@@ -331,3 +331,5 @@ img {
         padding: 5px 40px;
     }
 }
+
+@media (max-width: )
