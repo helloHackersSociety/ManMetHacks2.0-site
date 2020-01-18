@@ -35,7 +35,7 @@ export default class TeamPanel extends Component {
             },
             {
                 id:3,
-                position: "Events organiser",
+                position: "Events Organiser",
                 name:"Fahad Quraishi",
                 github:"https://github.com/FahadQ",
                 picture:"https://avatars3.githubusercontent.com/u/30301004?s=460&v=4",
