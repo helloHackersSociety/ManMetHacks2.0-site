@@ -4,25 +4,25 @@ export default class SchedulePanel extends Component {
 
     state = {
         schedule:[
-            {id:0, name:"Doors Open", startTime: "9am", day: "Saturday", type: "door"},
-            {id:1, name:"Opening Ceremony", startTime: "11am", day: "Saturday", type: "presentation"},
-            {id:2, name:"Team Building", startTime: "11:45am", day: "Saturday", type: "presentation"},
-            {id:3, name:"Hacking Starts", startTime: "12pm", day: "Saturday", type: "computer"},
-            {id:4, name:"Lunch", startTime: "1pm", day: "Saturday", type:"meal"},
-            {id:5, name:"Koderly Workshop: Coding Problems - Developing Solutions", startTime: "2pm", day: "Saturday", type: "presentation"},
-            {id:6, name:"Workshop: GitHub", startTime: "4pm", day: "Saturday", type: "presentation"},
-            {id:7, name:"Workshop: Introduction to Android development", startTime: "5pm", day: "Saturday", type: "presentation"},
-            {id:8, name:"Evening Meal", startTime: "6:30pm", day: "Saturday", type:"meal"},
-            {id:9, name:"MLH Blackrock Cybersecurity Challenge", startTime: "8pm", day: "Saturday", type: "game"},
-            {id:10, name:"MLH !Light", startTime: "9pm", day: "Saturday", type: "game"},
-            {id:11, name:"Werewolf", startTime: "10pm", day: "Saturday", type: "game"},
+            {id:0, name:"Doors Open", startTime: "9:00", day: "Saturday", type: "door"},
+            {id:1, name:"Opening Ceremony", startTime: "11:00", day: "Saturday", type: "presentation"},
+            {id:2, name:"Team Building", startTime: "11:45", day: "Saturday", type: "presentation"},
+            {id:3, name:"Hacking Starts", startTime: "12:00", day: "Saturday", type: "computer"},
+            {id:4, name:"Lunch", startTime: "13:00", day: "Saturday", type:"meal"},
+            { id: 5, name: "Koder.ly Workshop", description: "Coding Problems - Developing Solutions", startTime: "14:00", day: "Saturday", type: "presentation"},
+            {id:6, name:"GitHub Workshop",  description: "GitHub", startTime: "16:00", day: "Saturday", type: "presentation"},
+            {id:7, name:"Android Development Workshop", description: "Learn the basics of Android with Will Russell", startTime: "17:00", day: "Saturday", type: "presentation"},
+            {id:8, name:"Evening Meal", startTime: "18:30", day: "Saturday", type:"meal"},
+            {id:9, name:"MLH Blackrock Cybersecurity Challenge", startTime: "20:00", day: "Saturday", type: "game"},
+            {id:10, name:"MLH !Light", startTime: "21:00", day: "Saturday", type: "game"},
+            {id:11, name:"Werewolf", startTime: "22:00", day: "Saturday", type: "game"},
 
-            {id:12, name:"Midnight Pizza!", startTime: "12am", day: "Sunday", type:"meal"},
-            {id:13, name:"Breakfast", startTime: "7:30am", day: "Sunday", type:"meal"},
-            {id:14, name:"Hacking Ends", startTime: "12pm", day: "Sunday", type: "computer"},
-            {id:15, name:"Demo Starts", startTime: "1pm", day: "Sunday", type: "presentation"},
-            {id:16, name:"Closing Ceremony", startTime: "3:30pm", day: "Sunday", type: "presentation"},
-            {id:17, name:"Event Ends", startTime: "5pm", day: "Sunday", type: "door"}
+            {id:12, name:"Midnight Pizza!", startTime: "00:00", day: "Sunday", type:"meal"},
+            {id:13, name:"Breakfast", startTime: "07:30", day: "Sunday", type:"meal"},
+            {id:14, name:"Hacking Ends", startTime: "12:00", day: "Sunday", type: "computer"},
+            {id:15, name:"Demo Starts", startTime: "13:00", day: "Sunday", type: "presentation"},
+            {id:16, name:"Closing Ceremony", startTime: "15:30", day: "Sunday", type: "presentation"},
+            {id:17, name:"Event Ends", startTime: "17:00", day: "Sunday", type: "door"}
         ]
     }
 
@@ -67,6 +67,7 @@ export default class SchedulePanel extends Component {
                                         <div id="event-container"> 
                                         <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path id="i-427" d="M48,36.091v-32H25v-4h-2v4H0v32h23v3.479l-9.572,6.701l1.146,1.639L23,42.011v2.08h2v-2.08l8.428,5.898l1.146-1.639 L25,39.569v-3.479H48z M2,34.091v-28h44v28H2z"/></svg>
                                         <h4>{event.name}</h4>
+                                        <h5>{event.description}</h5>
                                         <p>{event.startTime}</p>
                                         </div>
                                     </li>
