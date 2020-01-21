@@ -29,6 +29,7 @@ export default class Sponsors extends Component {
                         companyName: "Koder.ly",
                         image: KoderlyLogo,
                         url:"https://www.koder.ly/",
+                        size: "70%",
                     }
                 ],
             },
@@ -41,6 +42,7 @@ export default class Sponsors extends Component {
                        companyName: "FDM group",
                        image: FDMLogo,
                        url:"https://www.fdmgroup.com/careers/graduates",
+                       size: "35%",
                     },
                     
                     {
@@ -48,6 +50,7 @@ export default class Sponsors extends Component {
                        companyName: "GitHub",
                        image: GitHubLogo,
                        url:"https://education.github.com/",
+                       size: "35%"
                     }
                 ],
             },
@@ -60,6 +63,7 @@ export default class Sponsors extends Component {
                         companyName: "Twilio",
                         image: TwilioLogo,
                         url:"https://www.twilio.com/company",
+                        size: "30%",
                     },
                    
                 ],
@@ -73,6 +77,7 @@ export default class Sponsors extends Component {
                         companyName: "Institute of Coding",
                         image: IoCLogo,
                         url:"https://www2.mmu.ac.uk/institute-of-coding/",
+                        size: "25%",
                     }, 
                     
                     {
@@ -80,12 +85,14 @@ export default class Sponsors extends Component {
                         companyName: "JetBrains",
                         image: JetBrainsLogo,
                         url:"https://www.jetbrains.com/student/",
+                        size: "25%",
                     },
                     {
                         id:2,
                         companyName: "Levitation Events",
                         image: LevitationEventsLogo,
                         url:"https://levitationevents.co.uk/",
+                        size: "25%",
 
                     },
                     {
@@ -93,6 +100,7 @@ export default class Sponsors extends Component {
                         companyName: "Sticker Mule",
                         image: StickerMuleLogo,
                         url:"http://hackp.ac/mlh-stickermule-hackathons",
+                        size: "25%",
 
                     },
                 ],
