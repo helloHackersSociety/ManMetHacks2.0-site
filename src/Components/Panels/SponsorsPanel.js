@@ -63,7 +63,7 @@ export default class Sponsors extends Component {
                         companyName: "Twilio",
                         image: TwilioLogo,
                         url:"https://www.twilio.com/company",
-                        size: "30%",
+                        size: "35%",
                     },
                    
                 ],
