@@ -293,6 +293,7 @@ img {
     }
     h1 {
         font-size: 4em;
+        word-wrap: break-word;
     }
     h2 {
         font-size: 8vw;
@@ -312,10 +313,15 @@ img {
         float: none;
     }
     .sponsorDiv a img {
-        transform: scale(0.7);
+        transform: scale(1.6);
         max-width: 100%;
         max-height: 100%;
     }
+
+    .sponsorDiv p{
+        visibility: hidden;
+    }
+
     .sponsorDiv {
         float: none;
         margin: 0;
@@ -331,5 +337,3 @@ img {
         padding: 5px 40px;
     }
 }
-
-@media (max-width: )

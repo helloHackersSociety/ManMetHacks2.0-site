@@ -9,7 +9,7 @@ export default class SchedulePanel extends Component {
             {id:2, name:"Team Building", startTime: "11:45", day: "Saturday", type: "presentation"},
             {id:3, name:"Hacking Starts", startTime: "12:00", day: "Saturday", type: "computer"},
             {id:4, name:"Lunch", startTime: "13:00", day: "Saturday", type:"meal"},
-            { id: 5, name: "Koder.ly Workshop", description: "Coding Problems - Developing Solutions", startTime: "14:00", day: "Saturday", type: "presentation"},
+            {id: 5, name: "Koder.ly Workshop", description: "Coding Problems - Developing Solutions", startTime: "14:00", day: "Saturday", type: "presentation"},
             {id:6, name:"GitHub Workshop",  description: "GitHub", startTime: "16:00", day: "Saturday", type: "presentation"},
             {id:7, name:"Android Development Workshop", description: "Learn the basics of Android with Will Russell", startTime: "17:00", day: "Saturday", type: "presentation"},
             {id:8, name:"Evening Meal", startTime: "18:30", day: "Saturday", type:"meal"},
@@ -19,10 +19,12 @@ export default class SchedulePanel extends Component {
 
             {id:12, name:"Midnight Pizza!", startTime: "00:00", day: "Sunday", type:"meal"},
             {id:13, name:"Breakfast", startTime: "07:30", day: "Sunday", type:"meal"},
-            {id:14, name:"Hacking Ends", startTime: "12:00", day: "Sunday", type: "computer"},
-            {id:15, name:"Demo Starts", startTime: "13:00", day: "Sunday", type: "presentation"},
-            {id:16, name:"Closing Ceremony", startTime: "15:30", day: "Sunday", type: "presentation"},
-            {id:17, name:"Event Ends", startTime: "17:00", day: "Sunday", type: "door"}
+            {id:14, name:"Submit to devpost", startTime: "10:30", day: "Sunday", type:"computer"},
+            {id:15, name:"Hacking & submissions Ends", startTime: "12:00", day: "Sunday", type: "computer"},
+            {id:16, name:"How to demo", startTime: "12:30", day: "Sunday", type: "presentation"},
+            {id:17, name:"Demo Starts", startTime: "13:00", day: "Sunday", type: "presentation"},
+            {id:18, name:"Closing Ceremony", startTime: "15:30", day: "Sunday", type: "presentation"},
+            {id:19, name:"Event Ends", startTime: "17:00", day: "Sunday", type: "door"}
         ]
     }
 

@@ -8,6 +8,7 @@ import LevitationEventsLogo from '../../Media/levitation-events.png';
 import GitHubLogo from '../../Media/github-logo.png';
 import StickerMuleLogo from '../../Media/2020Stickermuel.png';
 import TwilioLogo from '../../Media/twilio-logo.png';
+import BuddyLogo from '../../Media/buddy-logo.png';
 
 export default class Sponsors extends Component {
 
@@ -103,6 +104,14 @@ export default class Sponsors extends Component {
                         size: "25%",
 
                     },
+                    {
+                        id:4,
+                        companyName: "Buddy",
+                        image: BuddyLogo,
+                        url:"https://buddy.works/",
+                        size: "40%",
+
+                    }
                 ],
             },
         ]
