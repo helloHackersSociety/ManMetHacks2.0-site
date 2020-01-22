@@ -108,7 +108,7 @@ export default class Sponsors extends Component {
                         id:4,
                         companyName: "Buddy",
                         image: BuddyLogo,
-                        url:"https://buddy.works/",
+                        url:"https://buddy.works/?utm_source=event&utm_medium=referral&utm_campaign=manmethacks20",
                         size: "40%",
 
                     }
